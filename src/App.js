@@ -53,7 +53,6 @@ class App extends React.Component{
     var res = null;
     if(colorCode.length>0)
     {
-      
       res=<div className="container">
             {colorCode.map((i,index)=>{
                return <div className="box" key={index}>
